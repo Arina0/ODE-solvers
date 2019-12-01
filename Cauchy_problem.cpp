@@ -41,7 +41,7 @@ int main()
 	for (int i = 1; i <= n ; i++)
 	{
 		y = y + h * f(x, y);
-		x = x + h;
+		x = x + h; // комментарий:)
 		f1 << x << endl;
 		f2 << y << endl;
 		f3 << f(x) << endl;
